@@ -1,7 +1,7 @@
 package com.lotte;
 
-public class ch2 {
-
+public class Ch2 {
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int age = 120;
@@ -20,7 +20,6 @@ public class ch2 {
 		System.out.print(":");
 		System.out.println(minute);
 
-		float weight = 57.3f;
 		float weight2 = (float) 50.5;
 		System.out.print("keep going you still have 7kg to lost to reach your goal");
 		System.out.println(weight2);
