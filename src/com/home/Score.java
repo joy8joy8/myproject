@@ -1,11 +1,13 @@
 package com.home;
 
 public class Score {
-	float english;
-	float math;
-	String name;
-	public Score(String name,float english,float math){
-		this.name=name;
+	int english;
+	int math;
+	
+	public Score(int english,int math){
 		this.english=english;
+		this.math=math;
+
 	}
+	
 }
