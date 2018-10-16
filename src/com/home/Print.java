@@ -10,21 +10,10 @@ public class Print {
 		Name onej = new Name("Jack");
 		Name twoc = new Name("Charlotte");
 		Name threek = new Name("Kate");
-		System.out.print(onej.name);
-		System.out.print(" ");
-		System.out.print(one.english);
-		System.out.print(" ");
-		System.out.println(one.math);
-		System.out.print(twoc.name);
-		System.out.print(" ");
-		System.out.print(two.english);
-		System.out.print(" ");
-		System.out.println(two.math);
-		System.out.print(threek.name);
-		System.out.print(" ");
-		System.out.print(three.english);
-		System.out.print(" ");
-		System.out.println(three.math);
+		System.out.print(onej.name+"\t"+one.english+"\t"+one.math+"\t"+one.even()+"\n");
+		System.out.print(twoc.name+"\t"+two.english+"\t"+two.math+"\t"+two.even()+"\n");
+		System.out.print(threek.name+"\t"+three.english+"\t"+three.math+"\t"+three.even()+"\n");
+		
 	}
 
 }
