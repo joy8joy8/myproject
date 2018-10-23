@@ -13,6 +13,7 @@ public class Signup {
 		//boolean adult =line.toUpperCase().equals("Y")
 		//boolean adult = line.equals("y")||line.equals("Y");
 		System.out.println(adult);
+		
 	
 	}
 
