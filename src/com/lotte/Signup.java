@@ -16,12 +16,12 @@ public class Signup {
 		if (adult) {
 			System.out.print("your age:");
 			int age = scanner.nextInt();
-			scanner.nextLine();
+			scanner.nextLine();   //use to consume the enter
 			System.out.print("your name:");
 			String name = scanner.nextLine();
 			System.out.print("your nickname:");
 			String nick = scanner.nextLine();
-			System.out.println(name + age);
+			System.out.println(name +"\t"+ age+"\t"+nick);
 		} else {
 			System.out.println("sorry,bye bye");
 		}
