@@ -9,13 +9,16 @@ public class RangeTester {
 		Scanner scanner= new Scanner(System.in);
 		System.out.println("please give me an interger");
 		int b = scanner.nextInt();
-		if(b>=-3&&b<=5){
+		boolean n= b<=5&&b>=-3; 
+		System.out.println(n);
+				
+		/*if(b>=-3&&b<=5){
 			boolean n = true;
 			System.out.println(n);
 		}else{
 			boolean n = false;
 			System.out.println(n);
-		}
+		}*/
 		
 		
 	}
