@@ -18,7 +18,7 @@ public class Casting {
 		double s =3/9.0;
 				
 		
-		System.out.printf("hi, point=%s / %d /%.2f",name,d,s);
+		System.out.printf("hi %s, point= %d /%.2f",name,d,s);
 		
 		
 		
