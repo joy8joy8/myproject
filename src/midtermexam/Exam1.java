@@ -16,17 +16,16 @@ public class Exam1 {
 		Scanner scanner = new Scanner(System.in);
 
 		while (true) {
-			System.out.println("Please enter number of tickets: ");
+			System.out.print("Please enter number of tickets: ");
 			int a = scanner.nextInt();
-			scanner.nextLine();
-			if (a == -1) {
+			if (a == -1){ 
 				System.out.println("Thanks for your booking.");
 				break;
 			}
-			System.out.println("How many round-trip tickets: ");
+			System.out.print("How many round-trip tickets: ");
 			int b = scanner.nextInt();
-			scanner.nextLine();
-			Exam1Ticket one = new Exam1Ticket(a, b);
+			int price=1000;
+			Exam1Ticket one = new Exam1Ticket(a, b,price);
 			one.price();
 	}
 

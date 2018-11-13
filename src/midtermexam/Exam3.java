@@ -24,11 +24,12 @@ public class Exam3 {
 		Random random = new Random();
 		int correct = random.nextInt(10) + 1;
 		System.out.println(correct);
-		System.out.printf("please choose a number from 1 to 10.\nYour guess:\n");
+		System.out.printf("please choose a number from 1 to 10.\nYour guess:");
 		int count = 0;
-		while (true) {
+		int g=0;
+		while (correct!=g) {
 			count++;
-			int g = scanner.nextInt();
+			g = scanner.nextInt();
 			scanner.nextLine();
 			Exam3Random ramdon = new Exam3Random(correct, g);
 			if (g != correct) {
@@ -36,11 +37,9 @@ public class Exam3 {
 			} else {
 				if (count <=2) {
 					System.out.printf("Excellent!! The secret number is %d!", correct);
-					break;
 				} else {
 					System.out.printf("Great!! The secret number is %d!", correct);
-					break;
-				}
+					}
 
 			}
 		}
