@@ -10,7 +10,7 @@ import midtermexam.Exam3Random;
 public class For {
 
 	public static void main(String[] args) {
-	/*	int o = 4;
+		int o = 4;
 		for (o = 0; o <= 6; o++) {
 			System.out.println(o);
 		}
@@ -31,7 +31,7 @@ public class For {
 			}
 			System.out.println(i + "! = " + sum);
 			sum = 1;
-		}*/
+		}
 		
 		//for°j°é ½m²ß²q¤T¦¸
 		Scanner scanner = new Scanner(System.in);
