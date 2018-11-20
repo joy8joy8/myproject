@@ -10,7 +10,7 @@ import midtermexam.Exam3Random;
 public class For {
 
 	public static void main(String[] args) {
-		int o = 4;
+	/*	int o = 4;
 		for (o = 0; o <= 6; o++) {
 			System.out.println(o);
 		}
@@ -31,7 +31,7 @@ public class For {
 			}
 			System.out.println(i + "! = " + sum);
 			sum = 1;
-		}
+		}*/
 		
 		//for°j°é ½m²ß²q¤T¦¸
 		Scanner scanner = new Scanner(System.in);
@@ -39,11 +39,25 @@ public class For {
 		int c = random.nextInt(10) + 1;
 		System.out.println(c);
 		System.out.println("3 times to guess");
-		for (int t = 1; t <= 3; t++) {
-			System.out.print("Your guess:");
+		int t;
+		for (t = 1; t <= 3; t++) {
+			System.out.print("Your guess ("+t+"/3):");
 			int g = scanner.nextInt();
+			if(g<c){
+				System.out.println("higher");
+			}else if(c<g){
+				System.out.println("lower");
+			}else if(c==g){
+				break;
+			}
+			}
+		if(t==4){
+					System.out.println("wrong~~ haha chicken ");
+		}else if(t<=3){
+			System.out.println("good job");
+		
 		}
-		System.out.println("bye");
+		
 	}
 
 //½m²ß
