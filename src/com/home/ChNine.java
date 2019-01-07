@@ -52,7 +52,7 @@ public class ChNine {
 	n=n+2;
 	System.out.println(n);
 	float g=Float.parseFloat("59.7");
-	char c= Character.
+	char c= Character.toUpperCase('a');
 	
 	
 	}
